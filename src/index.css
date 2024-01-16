@@ -1,3 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  :root {
+    --toogle_bg-1 : #fff;
+    --bg_img-1 :  url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=1060&t=st=1703352467~exp=1703353067~hmac=1c367aedae11dc32dabcba89b158e48f871a3a6ac35ee2f79e05b3b101631df7);
+    --bg-logo :url('./component/Header/logo.png'); 
+    --txt-colr1 : #000000;
+    --bg-colr2 : #dddcdc;
+  }
+  [data-theme = "dark"] {
+    --toogle_bg-1 : #333 ;
+    /* --bg_img-1 : url(https://th.bing.com/th/id/OIP.N1fxZSPCZRccPcAZpjWXlQHaE6?rs=1&pid=ImgDetMain) */
+    --bg_img-1 : url('/bg1.jpg');
+    --bg-logo :url('./component/Header/logo_dark.png');
+    --txt-colr1: #fff;
+    --bg-colr2 : #393E46;
+    /* 393E46 */
+
+  }
+
+*{
+  transition: all 2s ease-in-out;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -1,0 +1,6 @@
+.text{
+    font-size: clamp(1.5 rem , 4 vw , 5 rem);
+}
+.ptext{
+    font-size: clamp(0.5 rem ,1 vw , 2 rem);
+}
